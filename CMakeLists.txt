@@ -8,7 +8,9 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Keep file lists explicit. Add application files when implementation begins.
-set(EXPENSE_TRACKER_SOURCES)
+set(EXPENSE_TRACKER_SOURCES
+    src/main.cpp
+)
 set(EXPENSE_TRACKER_HEADERS)
 set(EXPENSE_TRACKER_FORMS)
 set(EXPENSE_TRACKER_RESOURCES)
